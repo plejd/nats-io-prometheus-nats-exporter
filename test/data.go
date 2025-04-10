@@ -200,3 +200,9 @@ func leafzTestResponse() string {
 	]
 }`
 }
+
+func JetStreamTestResponse() string {
+	return `{
+		"server_id": "SERVER_ID",
+		"now": "2021-05-07T18:13:47.70796395Z",
+		"account_statz": [
